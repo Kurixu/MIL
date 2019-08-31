@@ -1,0 +1,189 @@
+﻿.galleryh a{
+height:253.8px;
+width:451.2px;
+position:relative;
+display:inline-block;
+}
+
+.galleryh a img{
+height:100%;
+width:100%;
+position:absolute;
+display:block;
+z-index:1;
+cursor:pointer;
+
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+
+-webkit-transition-property:width, height, top, bottom, left, right, z-index, border;
+-webkit-transition-duration:0.5s;
+-moz-transition-property:width, height, top, bottom, left, right, z-index, border;
+-moz-transition-duration:0.5s;
+-o-transition-property:width, height, top, bottom, left, right, z-index, border;
+-o-transition-duration:0.5s;
+transition-property:width, height, top, bottom, left, right, z-index, border;
+transition-duration:0.5s;
+}
+
+.galleryh a:focus img{
+height:140%;
+width:140%;
+display:block;
+z-index:24;
+border:10px solid #ffefd5;
+
+-webkit-transition-property:width, height, top, bottom, left, right, z-index, border;
+-webkit-transition-duration:0.5s;
+-moz-transition-property:width, height, top, bottom, left, right, z-index, border;
+-moz-transition-duration:0.5s;
+-o-transition-property:width, height, top, bottom, left, right, z-index, border;
+-o-transition-duration:0.5s;
+transition-property:width, height, top, bottom, left, right, z-index, border;
+transition-duration:0.5s;
+}
+
+.galleryv a{
+height:451.2px;
+width:253.8px;
+position:relative;
+display:inline-block;
+}
+
+.galleryv a img{
+height:100%;
+width:100%;
+position:absolute;
+display:block;
+z-index:1;
+cursor:pointer;
+
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+
+-webkit-transition-property:width, height, top, bottom, left, right, z-index, border;
+-webkit-transition-duration:0.5s;
+-moz-transition-property:width, height, top, bottom, left, right, z-index, border;
+-moz-transition-duration:0.5s;
+-o-transition-property:width, height, top, bottom, left, right, z-index, border;
+-o-transition-duration:0.5s;
+transition-property:width, height, top, bottom, left, right, z-index, border;
+transition-duration:0.5s;
+}
+
+.galleryv a:focus img{
+height:140%;
+width:140%;
+display:block;
+z-index:24;
+border:10px solid #ffefd5;
+
+-webkit-transition-property:width, height, top, bottom, left, right, z-index, border;
+-webkit-transition-duration:0.5s;
+-moz-transition-property:width, height, top, bottom, left, right, z-index, border;
+-moz-transition-duration:0.5s;
+-o-transition-property:width, height, top, bottom, left, right, z-index, border;
+-o-transition-duration:0.5s;
+transition-property:width, height, top, bottom, left, right, z-index, border;
+transition-duration:0.5s;
+}
+
+
+.galleryqh a{
+height:128px;
+width:256px;
+position:relative;
+display:inline-block;
+}
+
+.galleryqh a img{
+height:100%;
+width:100%;
+position:absolute;
+display:block;
+z-index:1;
+cursor:pointer;
+
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+
+-webkit-transition-property:width, height, top, bottom, left, right, z-index, border;
+-webkit-transition-duration:0.5s;
+-moz-transition-property:width, height, top, bottom, left, right, z-index, border;
+-moz-transition-duration:0.5s;
+-o-transition-property:width, height, top, bottom, left, right, z-index, border;
+-o-transition-duration:0.5s;
+transition-property:width, height, top, bottom, left, right, z-index, border;
+transition-duration:0.5s;
+}
+
+.galleryqh a:focus img{
+height:150%;
+width:150%;
+display:block;
+z-index:24;
+border:10px solid #ffefd5;
+background-color:white;
+
+-webkit-transition-property:width, height, top, bottom, left, right, background-color, z-index, border;
+-webkit-transition-duration:0.5s;
+-moz-transition-property:width, height, top, bottom, left, right, background-color, z-index, border;
+-moz-transition-duration:0.5s;
+-o-transition-property:width, height, top, bottom, left, right, background-color, z-index, border;
+-o-transition-duration:0.5s;
+transition-property:width, height, top, bottom, left, right, background-color, z-index, border;
+transition-duration:0.5s;
+}
+
+.galleryqv a{
+height:256px;
+width:128px;
+position:relative;
+display:inline-block;
+}
+
+.galleryqv a img{
+height:100%;
+width:100%;
+position:absolute;
+display:block;
+z-index:1;
+cursor:pointer;
+
+
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+
+-webkit-transition-property:width, height, top, bottom, left, right, background-color, z-index, border;
+-webkit-transition-duration:0.5s;
+-moz-transition-property:width, height, top, bottom, left, right, background-color, z-index, border;
+-moz-transition-duration:0.5s;
+-o-transition-property:width, height, top, bottom, left, right, background-color, z-index, border;
+-o-transition-duration:0.5s;
+transition-property:width, height, top, bottom, left, right, background-color, z-index, border;
+transition-duration:0.5s;
+}
+
+.galleryqv a:focus img{
+height:150%;
+width:150%;
+display:block;
+z-index:24;
+border:10px solid #ffefd5;
+background-color:white;
+
+-webkit-transition-property:width, height, top, bottom, left, right, background-color, z-index, border;
+-webkit-transition-duration:0.5s;
+-moz-transition-property:width, height, top, bottom, left, right, background-color, z-index, border;
+-moz-transition-duration:0.5s;
+-o-transition-property:width, height, top, bottom, left, right, background-color, z-index, border;
+-o-transition-duration:0.5s;
+transition-property:width, height, top, bottom, left, right, background-color, z-index, border;
+transition-duration:0.5s;
+}
+
+

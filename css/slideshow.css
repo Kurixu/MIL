@@ -1,0 +1,131 @@
+﻿.slideshow{
+height:452px;
+width:790px;
+margin:0px;
+position:relative;
+}
+
+.slideshow figure{
+position:absolute;
+margin:0px;
+}
+
+.slideshow figure img{
+border:10px double white;
+}
+
+figure:nth-child(1){
+-webkit-animation:xfade 24s 18s infinite;
+-moz-animation:xfade 24s 18s infinite;
+}
+
+figure:nth-child(2){
+-webkit-animation:xfade 24s 12s infinite;
+-moz-animation:xfade 24s 12s infinite;
+}
+
+
+figure:nth-child(3){
+-webkit-animation:xfade 24s 6s infinite;
+-moz-animation:xfade 24s 6s infinite;
+}
+
+
+figure:nth-child(4){
+-webkit-animation:xfade 24s 0s infinite;
+-moz-animation:xfade 24s 0s infinite;
+}
+
+@-webkit-keyframes xfade{
+0%{opacity:1;}
+18%{opacity:0;}
+50%{opacity:0;}
+75%{opacity:0;}
+100%{opacity:1;}
+}
+
+@-moz-keyframes xfade{
+0%{opacity:1;}
+18%{opacity:0;}
+50%{opacity:0;}
+75%{opacity:0;}
+100%{opacity:1;}
+}
+
+.slidescroll{
+background-color:#333333;
+animation:yfade 24s infinite;
+-webkit-animation:yfade 24s infinite;
+height:80px;
+width:117px;
+animation-delay:0s;
+-webkit-animation-delay:0s;
+-moz-animation-delay:0s;
+}
+
+.slidescroll2{
+background-color:#333333;
+animation:yfade 24s infinite;
+-webkit-animation:yfade 24s infinite;
+height:80px;
+width:117px;
+animation-delay:6s;
+-webkit-animation-delay:6s;
+-moz-animation-delay:6s;
+}
+
+.slidescroll3{
+background-color:#333333;
+animation:yfade 24s infinite;
+-webkit-animation:yfade 24s infinite;
+height:80px;
+width:117px;
+animation-delay:12s;
+-webkit-animation-delay:12s;
+-moz-animation-delay:12s;
+}
+
+.slidescroll4{
+background-color:#333333;
+animation:yfade 24s infinite;
+-webkit-animation:yfade 24s infinite;
+height:80px;
+width:117px;
+animation-delay:18s;
+-webkit-animation-delay:18s;
+-moz-animation-delay:18s;
+}
+
+@keyframes yfade{
+0%{background-color:#333333;}
+5%{background-color:#333333;}
+10%{background-color:#ebcfc4;}
+25%{background-color:#ebcfc4;}
+30%{background-color:#ebcfc4;}
+35%{background-color:#333333;}
+75%{background-color:#333333;}
+100%{background-color:#333333;}
+}
+
+@-webkit-keyframes yfade{
+0%{background-color:#333333;}
+5%{background-color:#333333;}
+10%{background-color:#ebcfc4;}
+25%{background-color:#ebcfc4;}
+30%{background-color:#ebcfc4;}
+35%{background-color:#333333;}
+75%{background-color:#333333;}
+100%{background-color:#333333;}
+}
+
+@-moz-keyframes yfade{
+0%{background-color:#333333;}
+5%{background-color:#333333;}
+10%{background-color:#ebcfc4;}
+25%{background-color:#ebcfc4;}
+30%{background-color:#ebcfc4;}
+35%{background-color:#333333;}
+75%{background-color:#333333;}
+100%{background-color:#333333;}
+}
+
